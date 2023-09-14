@@ -1,0 +1,15 @@
+saks.industries. 3600 IN MX 0 saks-industries.mail.protection.outlook.com.
+saks.industries. 21600 IN NS ns-cloud-b1.googledomains.com.
+saks.industries. 21600 IN NS ns-cloud-b2.googledomains.com.
+saks.industries. 21600 IN NS ns-cloud-b3.googledomains.com.
+saks.industries. 21600 IN NS ns-cloud-b4.googledomains.com.
+saks.industries. 21600 IN SOA ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 2 21600 3600 259200 300
+saks.industries. 3600 IN TXT "v=spf1 include:spf.protection.outlook.com -all"
+_sipfederationtls._tcp.saks.industries. 3600 IN SRV 100 1 5061 sipfed.online.lync.com.
+_sip._tls.saks.industries. 3600 IN SRV 100 1 443 sipdir.online.lync.com.
+autodiscover.saks.industries. 3600 IN CNAME autodiscover.outlook.com.
+enterpriseenrollment.saks.industries. 3600 IN CNAME enterpriseenrollment-s.manage.microsoft.com.
+enterpriseregistration.saks.industries. 3600 IN CNAME enterpriseregistration.windows.net.
+go.saks.industries. 5 IN CNAME cname.short.io.
+lyncdiscover.saks.industries. 3600 IN CNAME webdir.online.lync.com.
+sip.saks.industries. 3600 IN CNAME sipdir.online.lync.com.
